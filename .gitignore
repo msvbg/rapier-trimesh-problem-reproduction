@@ -1,6 +1,5 @@
 # Unwanted files
 target
-assets/gen/*
 
 # Backup files
 .DS_Store

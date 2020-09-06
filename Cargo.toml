@@ -1,0 +1,19 @@
+[package]
+name = "repro"
+version = "0.1.0"
+authors = []
+edition = "2018"
+
+[dependencies]
+winit = "0.22.2"
+wgpu = "0.6"
+tokio = { version = "0.2.22", features = ["macros"] }
+tracing = "0.1"
+dotenv = "0.15.0"
+tracing-subscriber = "0.2.10"
+bytemuck = "1.4.0"
+lyon = "0.16.0"
+nalgebra = "0.22.0"
+rapier2d = "0.1.4"
+lazy_static = "1.4.0"
+tobj = "2.0.2"
